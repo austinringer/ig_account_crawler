@@ -11,16 +11,16 @@ from follow_protocol import follow_protocol
 import time
 
 
-bot = InstaBot(login="username", password="password",
-               like_per_day=1000,
+bot = InstaBot(login="austinringer", password="Frtres123",
+               like_per_day=2000,
                comments_per_day=0,
-               tag_list=['follow4follow', 'f4f', 'cute'],
+               tag_list=['ftechstartup', 'nyceats', 'foodnyc', 'newforkcity', 'nycdining', 'topnycrestaurants', 'startuplife', 'startups', 'startup', 'hustle'],
                tag_blacklist=['rain', 'thunderstorm'],
                user_blacklist={},
                max_like_for_one_tag=50,
-               follow_per_day=300,
-               follow_time=1*60,
-               unfollow_per_day=300,
+               follow_per_day=1000,
+               follow_time=1*60*60,
+               unfollow_per_day=2000,
                unfollow_break_min=15,
                unfollow_break_max=30,
                log_mod=0,
